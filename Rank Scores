@@ -1,3 +1,4 @@
+/*using mysql*/
 # Write your MySQL query statement below
 SELECT s.Score, COUNT(DISTINCT t.Score) Rank
 FROM Scores s JOIN Scores t ON s.Score <= t.Score
